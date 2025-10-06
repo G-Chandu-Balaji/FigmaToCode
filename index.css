@@ -421,12 +421,12 @@ li {
     line-height: 17px;
   }
 
-  .rating-left-right {
+  .rating-right {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 11px;
+    gap: 8px;
     width: 108px;
     height: 40.35px;
   }
