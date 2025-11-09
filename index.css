@@ -465,8 +465,15 @@ li {
   }
 }
 .courses img {
-  width: 36px;
-  height: 36px;
+  width: 80px;
+  height: 80px;
+}
+
+@media (max-width: 521px) {
+  .courses img {
+    width: 36px;
+    height: 36px;
+  }
 }
 
 /* ......................................................
