@@ -45,6 +45,18 @@ nav {
   display: none;
 }
 
+@media (max-width: 1480px) {
+  nav {
+    padding-inline: min(80px, 5vw);
+  }
+}
+
+@media (max-width: 1090px) {
+  nav {
+    padding-inline: min(50px, 3vw);
+  }
+}
+
 @media (max-width: 1000px) {
   nav {
     justify-content: space-between;
@@ -298,7 +310,7 @@ li {
   text-transform: uppercase;
   color: #ffffff;
 }
-@media (max-width: 514px) {
+@media (max-width: 521px) {
   .hero-left-para {
     width: 330.13px;
     height: 204px;
@@ -403,6 +415,62 @@ li {
   color: #000000;
 }
 
+@media (max-width: 938px) {
+  .imagebackground {
+    height: 100%;
+    width: 70vw;
+  }
+}
+
+@media (max-width: 744px) {
+  .rating {
+    gap: 12px;
+    width: 220px;
+    bottom: 160px;
+    left: 9px;
+    padding: 15px 10px;
+  }
+  .rating-left {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .rating-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .rating-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+  }
+  .rating-stars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+  }
+  .rating-stars img {
+    width: 14px;
+    height: 14px;
+  }
+  .courses {
+    width: 220.28px;
+    padding: 14px 12px;
+    bottom: 55px;
+  }
+  .courses-number {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .courses-text {
+    /* width: 78px; */
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
 @media (max-width: 521px) {
   .rating {
     gap: 8px;
@@ -422,19 +490,11 @@ li {
   }
 
   .rating-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 8px;
     width: 108px;
     height: 40.35px;
   }
   .rating-stars {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
     gap: 4px;
     width: 80.67px;
     height: 12.35px;
@@ -446,6 +506,7 @@ li {
   .imagebackground {
     width: 319.08px;
     height: 366px;
+    padding: 2px;
   }
   .courses {
     width: 153.28px;
@@ -467,6 +528,12 @@ li {
 .courses img {
   width: 80px;
   height: 80px;
+}
+@media (max-width: 744px) {
+  .courses img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 @media (max-width: 521px) {
@@ -526,7 +593,6 @@ li {
   flex-direction: column;
   align-items: center;
   height: 110px;
-  height: 110px;
   font-weight: 600;
   font-size: 44px;
   line-height: 55px;
@@ -535,6 +601,25 @@ li {
   text-transform: capitalize;
   color: #000000;
 }
+@media (max-width: 1069px) {
+  .top-text2 {
+    height: 120px;
+    font-size: 38px;
+  }
+}
+@media (max-width: 951px) {
+  .top-text2 {
+    height: 130px;
+    font-size: 34px;
+  }
+}
+@media (max-width: 865px) {
+  .top-text2 {
+    height: 140px;
+    font-size: 32px;
+  }
+}
+
 @media (max-width: 845px) {
   .top-text2 {
     width: 375px;
